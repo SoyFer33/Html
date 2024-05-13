@@ -1,0 +1,17 @@
+html {
+    scroll-behavior: smooth;   
+}
+/* podemos abrir la terminal de JS con vsc para ver el codigo de html. se debe realizar con la ruta del archivo y antes de la carpeta que contiene el archivo con el NODE.  */
+h1 {
+    color: brown;
+}
+
+h2 {
+    font-family: sans-serif;
+    color: orangered;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}

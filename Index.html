@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="En esta página eatamos aprendiendo HTML con el profesor Marcos"><!-- SEO a nivel de codigo, nos ayuda a qu ese describa la pagina -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="icon" href="/IMG/html.svg">
+    <title>Tutorial HTML</title>
+</head>
+<body>      
+    <h1>Tutorial de HTML</h1><!-- Solo se Escribe uno por documento -->
+    <h2 id="temario">Temario del Curso</h2>
+    <ul>
+        <li><a href="Index.html#etiquetas-basicas">Etiquetas de Texto Basicas</a></li>
+        <li><a href="Index.html#etiquetas-salto">Etiquetas de Salto</a></li>
+        <li><a href="Index.html#etiquetas-formateo">Etiquetas de Formateo</a></li>
+        <li><a href="Index.html#etiquetas-semanticas-estructurales">Etiquetas semanticas estructurales</a></li>
+        <li><a href="Index.html#etiquetas-linea-bloque">Etiquetas de linea y de bloque</a></li>
+        <li><a href="Index.html#imagenes">Imágenes</a></li>
+        <li><a href="Index.html#listas-ordenadas">Listas Ordenadas</a></li>
+        <li><a href="Index.html#listas-desordenadas">Listas Desordenadas</a></li>
+        <li><a href="Index.html#tablas">Tablas</a></li>
+        <li><a href="Index.html#enlaces">Enlaces</a></li>
+        <li><a href="Index.html#javascript">JavaScript</a></li>
+        <li><a href="Index.html#enlaces-especiales">Enlaces Especiales</a></li>
+        <li><a href="Index.html#enlaces"></a></li>
+    </ul>
+    <br>
+    <hr>
+    <h2 id="etiquetas-basicas">Etiquetas de texto Básicas</h2><!-- Este se usa para Subtitulos -->
+        <p>Palabras en: <b>Negrita</b>, <i>Cursiva</i>, <u>Subrayado</u>, e=mc <sup>2</sup>, H <sub>2</sub>0, <mark> Texto resaltado</mark>, <small>Ltras pequeñas</small></p>
+    <h3>Etiquetas de Texto Semanticas <h3>
+        <p><strong>Este texto es importante </strong><em>Este texto hace énfasis </em></p>
+        <blockquote>Solo se que no se nada</blockquote>
+        <cite>Sócrates</cite> 
+    <br>
+    <a href="Index.html#temario">Ir al temario 🔼</a>
+    <hr>
+    <h2 id="etiquetas-salto">Etiquetas de Salto</h2>
+
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, repudiandae culpa. <br> Distinctio officia alias dignissimos repudiandae doloremque accusamus quaerat excepturi quia. <br><br> Distinctio nostrum eligendi modi exercitationem laborum ipsam quod tenetur.</p>
+    <a href="Index.html#temario">Ir al temario 🔼</a>
+    <hr>
+    <h2 id="etiquetas-formateo">Etiquetas de Formateo </h2>
+    <pre>
+    <p>Tareas por Hacer:
+         En el curso:
+            -No faltar a clase.
+            -Repasr la teoria.
+            -Practicar los ejercicios.
+         En la Casa:
+            -Cortar el pasto.
+            -Hacer las compras.
+            -Pagar las cuentas.
+    </p>
+    </pre>
+    <p>
+        <code>Este texto esta en el formato de codigo</code>
+
+    </p>
+    <pre>
+        <code>
+            funtion clearScreen() {
+                document.getElementById("Respuesta").
+                value = "";
+            }
+        </code>
+    </pre>
+    <a href="Index.html#temario">Ir al temario 🔼</a>
+    <hr>
+    <h2 id="etiquetas-semanticas-estructurales">Etiquetas semanticas estructurales</h2>
+    
+    <div style="background-color: rgb(20, 32, 32); color: #fff">DIV:Es una etiqueta contenedora que no tiene semantica</div>
+    <header style="background-color: cadetblue;">HEADER: cabecera de un sitio web o una seccion</header>
+    <main style="background-color: cadetblue;">MAIN: define la seccion principal del documento, solo puede existir una por documento.</main>
+    <footer style="background-color: cadetblue;">FOOTER: pie de pagina de un sitio web o una seccion.</footer>
+    <nav style="background-color: cadetblue;">NAV: Representa un menu de navegacion.</nav>
+    <article>ARTICLE: Representa una seccion de auto contenido(que por si sola se explica).</article>
+    <aside>ASIDE: Representa contenido complementario o secundario.</aside>
+    <section>SECTION: Representa una seccion de un contenido generico.</section>
+    <address>  ADDRES: Representa una direccion fisica.</address>
+    <a href="Index.html#temario">Ir al temario 🔼</a>
+    <hr>
+    <h2 id="etiquetas-linea-bloque">Etiquetas de linea y de bloque</h2>
+    <div style="background-color: cadetblue;">La etiqueta de bloque por excelencia es la Div</div>
+    <span style="background-color: rgb(25, 45, 83);">La etiqueta de linea por excelencia es la SPAN.</span>
+    <span>Hola soy otra span</span>
+    <br>
+    <a href="Index.html#temario">Ir al temario 🔼</a>
+    <hr>
+    <h2 id="imagenes">Imagenes</h2>
+    <img src="/IMG/dog-svgrepo-com.svg" alt="foto perrito">
+    <img src="/IMG/tablehtml5.jpg" alt="Tabla">
+    <a href="Index.html#temario">Ir al temario 🔼</a>
+    <hr>
+    <h2 id="figuras">Figuras</h2>
+    <figure>
+        <img src="/IMG/tablehtml5.jpg" alt="Tabla HTML ">
+        <figcaption>Esta es una tabla</figcaption>
+    </figure>
+    <a href="Index.html#temario">Ir al temario 🔼</a>
+    <hr>
+    <h2 id="listas-ordenadas">Listas Ordenadas</h2>
+    <h3>Estaciones del Año</h3>
+    <ol>
+        <li>Primavera</li>
+        <li>Verano</li>
+        <li>Invierno</li>
+        <li>Verano</li>
+    </ol>
+    <ol start="7">
+        <li>Primavera</li>
+        <li>Verano</li>
+        <li>Invierno</li>
+        <li>Verano</li>
+    </ol>
+    <ol reversed>
+        <li>Primavera</li>
+        <li>Verano</li>
+        <li>Invierno</li>
+        <li>Verano</li>
+    </ol>
+    <ol type="I">
+        <li>Primavera</li>
+        <li>Verano</li>
+        <li>Invierno</li>
+        <li>Verano</li>
+    </ol>
+    <a href="Index.html#temario">Ir al temario 🔼</a>
+    <hr>
+    <h2 id="listas-desordenadas">Listas Desordenadas</h2>
+    <h3>Cosas por Hacer</h3>
+    <ul>
+        <li>Enviar informes 1° trimestre</li>
+        <li>Terminar PPT del modulo 3</li>
+        <li>Corregir evaluacion</li>
+        <li>Entregar trabajo final del curso de IA</li>
+    </ul>
+    <ul type="circle">
+        <li>Enviar informes 1° trimestre</li>
+        <li>Terminar PPT del modulo 3</li>
+        <li>Corregir evaluacion</li>
+        <li>Entregar trabajo final del curso de IA</li>
+    </ul>
+    <ul type="square">
+        <li>Enviar informes 1° trimestre</li>
+        <li>Terminar PPT del modulo 3</li>
+        <li>Corregir evaluacion</li>
+        <li>Entregar trabajo final del curso de IA</li>
+    </ul>
+    <a href="Index.html#temario">Ir al temario 🔼</a>
+    <hr>
+    <h2 id="tablas">Tablas</h2>
+    <table>
+        <tr>
+            <th colspan="2">PAIS</th>
+            <th>CAPITAL</th>
+            <th>CONTINENTE</th>
+        </tr>
+        <tr>
+            <td>Japón</td>
+            <td>Tokio</td>
+            <td>Asia</td>
+        </tr>
+        <tr>
+            <td>Francia</td>
+            <td>París</td>
+            <td>Europa</td>
+        </tr>
+        <tr>
+            <td>Canada</td>
+            <td>Otawa</td>
+            <td>América</td>
+        </tr>
+    </table>
+    <a href="Index.html#temario">Ir al temario 🔼</a>
+    <hr>
+    <h2 id="enlaces">Enlaces</h2>
+    <a href="/nuevo.html">Ir al Nuevo Archivo</a> <br>
+    <a href="https://tecnologiaeducativaargentina.blogspot.com/"  target="_blank" rel="nofollow">Ir a la Pag Educativa</a>
+    <a href="https://web.whatsapp.com/" target="_blank" rel="nofollow"><img src="/IMG/icons8-whatsapp-24.png" width="50" height="50" alt="Ir al WhatsApp"></a>
+    
+    <h3>Enlaces Internos</h3>
+    <br>
+    <a href="Index.html#temario">Ir al temario 🔼</a>
+    <hr>
+    <h2 id="javascript">JavaScript</h2>
+    <p>Aqui se explica la forma en que podemos enlazar un archivo JS, desde el codigo de Html</p>
+    <script src="JS/app.js"></script>
+    <script>console.log("Este codigo esta en el index")</script>
+    <br>
+    <a href="Index.html#temario">Ir al temario 🔼</a>
+    <hr>
+    <h2 id="enlaces-especiales">Enlaces Especiales</h2>
+    <a href="maito:fernandosantucho1@gmail.com">Enlace a correo electrónico</a>
+    <br>
+    <a href="tel:3834072549">Enlace a telefono</a>
+    <br>
+    <br>
+    <a href="Index.html#temario">Ir al temario 🔼</a>
+
+
+
+    <br><br><br><br><br><br><br><br><br><br>
+    
+    <hr>
+</body>
+</html>
