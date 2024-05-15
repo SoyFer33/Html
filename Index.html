@@ -9,24 +9,35 @@
     <title>Tutorial HTML</title>
 </head>
 <body>      
-    <h1>Tutorial de HTML</h1><!-- Solo se Escribe uno por documento -->
-    <h2 id="temario">Temario del Curso</h2>
+    <h2>Tutorial de HTML</h2><!-- Solo se Escribe uno por documento -->
+    <h3 id="temario">Temario del Curso</h3>
     <ul>
+        <li><a href="Index.html#encabezados"> Tipos de Encabezados</a></li>
         <li><a href="Index.html#etiquetas-basicas">Etiquetas de Texto Basicas</a></li>
         <li><a href="Index.html#etiquetas-salto">Etiquetas de Salto</a></li>
         <li><a href="Index.html#etiquetas-formateo">Etiquetas de Formateo</a></li>
-        <li><a href="Index.html#etiquetas-semanticas-estructurales">Etiquetas semanticas estructurales</a></li>
+        <li><a href="Index.html#etiquetas-semanticas-estructurales">Etiquetas semánticas estructurales</a></li>    
         <li><a href="Index.html#etiquetas-linea-bloque">Etiquetas de linea y de bloque</a></li>
         <li><a href="Index.html#imagenes">Imágenes</a></li>
         <li><a href="Index.html#listas-ordenadas">Listas Ordenadas</a></li>
         <li><a href="Index.html#listas-desordenadas">Listas Desordenadas</a></li>
         <li><a href="Index.html#tablas">Tablas</a></li>
+        <li><a href="Index.html#script">Script en Html</a></li>
         <li><a href="Index.html#enlaces">Enlaces</a></li>
-        <li><a href="Index.html#javascript">JavaScript</a></li>
         <li><a href="Index.html#enlaces-especiales">Enlaces Especiales</a></li>
-        <li><a href="Index.html#enlaces"></a></li>
+        <li><a href="Index.html#enlaces-interactivos">Enlaces Interactivos</a></li>
     </ul>
     <br>
+    <hr>
+    <h2 id="encabezados">Tipos de Encabezados</h2>
+    <h1>encabezado de nivel 1- solo uno por documento</h1>
+    <h2>encabezado de nivel 2</h2>
+    <h3>encabezado de nivel 3</h3>
+    <h4>encabezado de nivel 4</h4>
+    <h5>encabezado de nivel 5</h5>
+    <h6>encabezado de nivel 6</h6>
+    <br>
+    <a href="Index.html#temario">Ir al temario 🔼</a>
     <hr>
     <h2 id="etiquetas-basicas">Etiquetas de texto Básicas</h2><!-- Este se usa para Subtitulos -->
         <p>Palabras en: <b>Negrita</b>, <i>Cursiva</i>, <u>Subrayado</u>, e=mc <sup>2</sup>, H <sub>2</sub>0, <mark> Texto resaltado</mark>, <small>Ltras pequeñas</small></p>
@@ -69,7 +80,7 @@
     </pre>
     <a href="Index.html#temario">Ir al temario 🔼</a>
     <hr>
-    <h2 id="etiquetas-semanticas-estructurales">Etiquetas semanticas estructurales</h2>
+    <h2 id="etiquetas-semanticas-estructurales">Etiquetas semánticas estructurales</h2>
     
     <div style="background-color: rgb(20, 32, 32); color: #fff">DIV:Es una etiqueta contenedora que no tiene semantica</div>
     <header style="background-color: cadetblue;">HEADER: cabecera de un sitio web o una seccion</header>
@@ -89,7 +100,7 @@
     <br>
     <a href="Index.html#temario">Ir al temario 🔼</a>
     <hr>
-    <h2 id="imagenes">Imagenes</h2>
+    <h2 id="imagenes">Imágenes</h2>
     <img src="/IMG/dog-svgrepo-com.svg" alt="foto perrito">
     <img src="/IMG/tablehtml5.jpg" alt="Tabla">
     <a href="Index.html#temario">Ir al temario 🔼</a>
@@ -176,42 +187,71 @@
     </table>
     <a href="Index.html#temario">Ir al temario 🔼</a>
     <hr>
+    <h2 id="script">Script en Html</h2>
+        <p>Aqui se explica la forma en que podemos enlazar un archivo JS, desde el codigo de Html</p>
+        <script src="JS/app.js"></script>
+        <script>console.log("Este codigo esta en el index")</script>
+    <br>
+        <a href="Index.html#temario">Ir al temario 🔼</a>
+    <hr>
     <h2 id="enlaces">Enlaces</h2>
     <a href="/nuevo.html">Ir al Nuevo Archivo</a> <br>
     <a href="https://tecnologiaeducativaargentina.blogspot.com/"  target="_blank" rel="nofollow">Ir a la Pag Educativa</a>
-    <a href="https://web.whatsapp.com/" target="_blank" rel="nofollow"><img src="/IMG/icons8-whatsapp-24.png" width="50" height="50" alt="Ir al WhatsApp"></a>
+    <br>
+    <a href="https://web.whatsapp.com/" target="_blank" rel="nofollow"><img src="/IMG/whatsapp-color-svgrepo-com.svg" width="50" height="50" alt="Ir al WhatsApp"></a> <br>
+    <a href="https://www.youtube.com/" target="_blank" rel="nofollow"><img src="/IMG/youtube-color-svgrepo-com.svg" width="50" height="50" alt="Ir a Youtube"></a>
     
     <h3>Enlaces Internos</h3>
     <br>
     <a href="Index.html#temario">Ir al temario 🔼</a>
     <hr>
-    <h2 id="javascript">JavaScript</h2>
-    <p>Aqui se explica la forma en que podemos enlazar un archivo JS, desde el codigo de Html</p>
-    <script src="JS/app.js"></script>
-    <script>console.log("Este codigo esta en el index")</script>
-    <br>
-    <a href="Index.html#temario">Ir al temario 🔼</a>
-    <hr>
+    
     <h2 id="enlaces-especiales">Enlaces Especiales</h2>
     <a href="maito:fernandosantucho1@gmail.com">Enlace a correo electrónico</a>
     <br>
     <a href="tel:3834072549">Enlace a telefono</a>
     <br>
-    <a href="https://wa.me/+543834072549&text=usuario+de+tu+pagina+web+quiere+contactarse" target="_blank"> Enlace a WhatsApp</a>
+    <a href="https:///api.whatsapp.com/send?phone=3834072549&text=Hola,%20como%20puedo%20ayudarte%20?" target="_blank" rel="nofollow"><img src="/IMG/whatsapp-color-svgrepo-com.svg" width="50" height="50" alt="Ir al WhatsApp"></a>
     <br>
     <a href="Index.html#temario">Ir al temario 🔼</a>
+    <hr>
     <h2 id="enlaces-interactivos">Enlaces Interactivos</h2>
-    <button onclick="alert('Hiciste click en el boton')">Alerta</button><br>
-    
-    <a href="Index.html"></a>
-
+        <button onclick="alert('Hiciste click en el boton')">Alerta</button><br><br>
+        <details>
+            <summary>Titulo del Acordeon</summary>
+            <article>
+                <h3>Contenido del acordeon</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo ipsa aspernatur sapiente culpa nisi voluptates voluptatem illo molestiae qui officia similique architecto, praesentium earum nesciunt nobis neque saepe inventore? Laborum.</p>
+                    <img src="/IMG/dog-svgrepo-com.svg" alt="perrito">
+            </article>
+        </details>
+        <details open> <!-- este es un acordeon o desplegable abierto -->
+            <summary>Titulo del Acordeon</summary>
+            <article>
+                <h3>Contenido del acordeon</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo ipsa aspernatur sapiente culpa nisi voluptates voluptatem illo molestiae qui officia similique architecto, praesentium earum nesciunt nobis neque saepe inventore? Laborum.</p>
+                    <img src="/IMG/whatsapp-color-svgrepo-com.svg" alt="whatsapp">
+            </article>
+        </details>
+        <dialog open="Esto es una ventana modal">
+            Esto es una ventana de dialogo
+        </dialog>
+        <br><br><br>
+        <a href="#openModal">Lanzar el modal</a>
+    	<div id="openModal" class="modalDialog">
+	        <div>
+		        <a href="#close" title="Close" class="close">X</a>
+		        <h3>Mi modal</h3>
+		        <p>Este es un ejemplo de modal, creado gracias al poder de CSS3.</p>
+		        <p>Puedes hacer un montón de cosas aquí, como alertas o incluso crear un formulario de registro aquí mismo.</p>
+	        </div>
+        </div>
+    <br><br>
+    <a href="Index.html#temario">Ir al temario 🔼</a>
+    <br><br><br><br><br><br><br><br><br><br>
     <br>
     <a href="Index.html#temario">Ir al temario 🔼</a>
-
-
-
-    <br><br><br><br><br><br><br><br><br><br>
-    
+    <hr>
     <hr>
 </body>
 </html>
