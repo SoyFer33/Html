@@ -10,8 +10,17 @@ h2 {
     font-family: sans-serif;
     color: orangered;
 }
-img {
+img{
     max-width: 100%;
     height: auto;
     width: 50px;
+}
+video{
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+iframe {
+    width: 80%;
+    height: 300px;   
 }
