@@ -3,12 +3,26 @@ html {
 }
 /* podemos abrir la terminal de JS con vsc para ver el codigo de html. se debe realizar con la ruta del archivo y antes de la carpeta que contiene el archivo con el NODE.  */
 h1 {
-    color: brown;
-}
-
+    color: blue;
+    font-size: 3rem;
+    margin: 10rem 5rem;
+    text-shadow: 3px 4px 2px #000;
+} 
+/* selector h1 declaracion=separadas con puto y coma */
 h2 {
     font-family: sans-serif;
     color: orangered;
+}
+h3{
+    color: #FF70AB;
+}
+h5{
+    background-color: rgb(240, 56, 89);
+    display: inline-block;
+}
+a{
+    background-color: sienna;
+    display: block;
 }
 img{
     max-width: 100%;
@@ -23,4 +37,33 @@ video{
 iframe {
     width: 80%;
     height: 300px;   
+}
+#enlace-css{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: red;
+}
+.tamaño-letra {
+    color: seagreen;
+    font-size: 1rem;
+}
+.fondo{
+    background-color: violet;
+    padding: 2rem;
+    border-radius: 20px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px #111;
+}
+.colores{
+    color: blue;
+    background-color: #323232;
+    background-color: rgb(255, 99, 71);
+    background-color: #ff63ff;
+    padding: 6rem;
+}
+.coloresHexa{
+    color: #0e68ee80;
+}
+.coloresRGB{
+    color: rgb(120, 70, 180);
 }
