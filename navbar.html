@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar Responsive</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <nav>
+        <button class="nav-boton" onclick="accion()">Menu</button>
+        <a href="#" class="nav-enlace desaparecer">Inicio</a>
+        <a href="#" class="nav-enlace desaparecer">Nosotros</a>
+        <a href="#" class="nav-enlace desaparecer">Servicio</a>
+        <a href="#" class="nav-enlace desaparecer">Contacto</a>
+        <a href="#" class="nav-enlace desaparecer">Mas</a>
+    </nav>
+    <p>
+        <a href="Index.html" target="_blank">Volver al Index</a>
+    </p>
+    <nav>
+        <script>
+            function accion(){
+                console.log('El boton funca')
+                var ancla = document.
+                getElementsByClassName('nav-enlace')
+                for(var i = 0; i < ancla.length; i++){
+                    ancla[i].classList.toggle('desaparecer')
+                } 
+            }
+        </script>
+    </nav> <!-- toogle hace es el encargado de hacer que el recorrido esta desahibilitado o habilitando la class desaparecer -->
+</body>
+</html>

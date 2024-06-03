@@ -1,6 +1,7 @@
 html {
     scroll-behavior: smooth;   
 }
+
 /* podemos abrir la terminal de JS con vsc para ver el codigo de html. se debe realizar con la ruta del archivo y antes de la carpeta que contiene el archivo con el NODE.  */
 h1 {
     color: blue;
@@ -20,7 +21,11 @@ h5{
     background-color: rgb(240, 56, 89);
     display: inline-block;
 }
-a{
+.inline{
+    background-color: rgb(240, 56, 89);
+    display: inline-block;
+}
+.bloque a{
     background-color: sienna;
     display: block;
 }
@@ -66,4 +71,67 @@ iframe {
 }
 .coloresRGB{
     color: rgb(120, 70, 180);
+}
+button{
+    background-color: #630606;
+    color: #ff63ff;
+}
+button:hover{
+    background-color: #050505;
+}
+button:active{
+    background-color: #b65c5c;
+}
+.flex{
+    background: #beb7b7;
+    padding: 20px;
+}
+.columna{
+    background: #d3a5a5;
+    padding: 10px;
+    width: 25%;
+}
+.contenedor-padre{
+    display: flex;
+}
+.nav-enlace{
+    display: flex;
+    background-color: #b9d4df;
+    color: #323232;
+    padding: 20px 50px;
+    text-decoration: none;
+}
+.nav-enlace:hover{
+    background-color: #9ebeac;
+}
+nav{
+    background-color: #2d373b;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.nav-boton{
+    background-color: #2d373b;
+    color: #fff;
+    padding: 10px 0;
+    font-family: sans-serif;
+    border: 2px solid #fff;
+    display: none;
+    
+}
+.desaparecer{
+    display: none;
+}
+
+@media (max-width: 600px) {
+    nav{
+        background-color: #5a0cbe;
+        flex-direction: column; 
+    }
+    .nav-enlace{
+        margin: 10px 0;
+    }
+    .nav-boton{
+        display: inline-block;
+    }
 }
