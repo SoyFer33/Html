@@ -63,7 +63,7 @@ iframe {
     font-size: 25px;
 }
 .fondo{
-    color: rgb(133, 5, 5);
+    color: rgb(3, 36, 0);
     background-color: rgb(184, 147, 135);
     padding: 2rem;
     border-radius: 20px;
@@ -71,7 +71,7 @@ iframe {
     box-shadow: 2px 2px 2px #111;
 }
 .colores{
-    color: rgb(133, 5, 5);
+    color: rgb(3, 36, 0);
     background-color: #323232;
     background-color: rgb(184, 147, 135);
     padding: 6rem;
