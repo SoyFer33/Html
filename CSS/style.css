@@ -1,5 +1,6 @@
 html {
-    scroll-behavior: smooth;   
+    scroll-behavior: smooth;
+    background-color: #beb7b7;   
 }
 
 /* podemos abrir la terminal de JS con vsc para ver el codigo de html. se debe realizar con la ruta del archivo y antes de la carpeta que contiene el archivo con el NODE.  */
@@ -15,18 +16,18 @@ h2 {
     color: orangered;
 }
 h3{
-    color: #FF70AB;
+    color: rgb(194, 10, 10);
 }
 h5{
-    background-color: rgb(240, 56, 89);
+    background-color: rgba(153, 32, 32, 0.445);
     display: inline-block;
 }
 .inline{
-    background-color: rgb(240, 56, 89);
+    background-color: rgba(153, 32, 32, 0.445);
     display: inline-block;
 }
 .bloque a{
-    background-color: sienna;
+    background-color: rgba(153, 32, 32, 0.445);
     display: block;
 }
 img{
@@ -53,7 +54,7 @@ iframe {
     font-size: 1rem;
 }
 .fondo{
-    background-color: violet;
+    background-color: rgb(39, 6, 39);
     padding: 2rem;
     border-radius: 20px;
     border: 2px solid black;
@@ -63,7 +64,7 @@ iframe {
     color: blue;
     background-color: #323232;
     background-color: rgb(255, 99, 71);
-    background-color: #ff63ff;
+    background-color: rgb(39, 6, 39);
     padding: 6rem;
 }
 .coloresHexa{
