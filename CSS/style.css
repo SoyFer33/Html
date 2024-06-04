@@ -5,10 +5,10 @@ html {
 
 /* podemos abrir la terminal de JS con vsc para ver el codigo de html. se debe realizar con la ruta del archivo y antes de la carpeta que contiene el archivo con el NODE.  */
 h1 {
-    color: blue;
-    font-size: 3rem;
+    color: black;
+    font-size: 30px;
     margin: 10rem 5rem;
-    text-shadow: 3px 4px 2px #000;
+    text-shadow: 3px 12px 7px #000;
 } 
 /* selector h1 declaracion=separadas con puto y coma */
 h2 {
@@ -61,7 +61,7 @@ iframe {
     box-shadow: 2px 2px 2px #111;
 }
 .colores{
-    color: blue;
+    color: rgb(133, 5, 5);
     background-color: #323232;
     background-color: rgb(184, 147, 135);
     padding: 6rem;
