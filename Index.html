@@ -13,12 +13,32 @@
     <title>Tutorial HTML</title>
 </head>
 <header>
-    <nav class="navegacion-principal">
-        <a href="#">Inicio</a>  
-        <a href="contacto.html">Contacto</a>    
-        <a href="#">Más</a> 
-        <a href="login.html">Login</a>   
-    </nav>
+    <nav class="navbar navbar-expand-md bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar-collapse collapse" id="navbarSupportedContent"style="">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 </header>
 <body>      
     <div class="container">
@@ -157,12 +177,6 @@
             <li>Invierno</li>
             <li>Verano</li>
         </ol>
-        <ol start="7">
-            <li>Primavera</li>
-            <li>Verano</li>
-            <li>Invierno</li>
-            <li>Verano</li>
-        </ol>
         <ol reversed>
             <li>Primavera</li>
             <li>Verano</li>
@@ -180,29 +194,26 @@
         <h2 id="listas-desordenadas">Listas Desordenadas</h2>
         <h3>Cosas por Hacer</h3>
         <ul>
-            <li>Enviar informes 1° trimestre</li>
-            <li>Terminar PPT del modulo 3</li>
-            <li>Corregir evaluacion</li>
-            <li>Entregar trabajo final del curso de IA</li>
+            <li>Enviar informes</li>
+            <li>Terminar trabajo práctico</li>
+            <li>Ordenar tareas para la semana</li>
         </ul>
         <ul type="circle">
-            <li>Enviar informes 1° trimestre</li>
-            <li>Terminar PPT del modulo 3</li>
-            <li>Corregir evaluacion</li>
-            <li>Entregar trabajo final del curso de IA</li>
+            <li>Enviar informes</li>
+            <li>Terminar trabajo práctico</li>
+            <li>Ordenar tareas para la semana</li>
         </ul>
         <ul type="square">
-            <li>Enviar informes 1° trimestre</li>
-            <li>Terminar PPT del modulo 3</li>
-            <li>Corregir evaluacion</li>
-            <li>Entregar trabajo final del curso de IA</li>
+            <li>Enviar informes</li>
+            <li>Terminar trabajo práctico</li>
+            <li>Ordenar tareas para la semana</li>
         </ul>
         <a href="Index.html#temario">Ir al temario 🔼</a>
         <hr>
         <h2 id="tablas">Tablas</h2>
         <table>
             <tr>
-                <th colspan="2">PAIS</th>
+                <th>PAIS</th>
                 <th>CAPITAL</th>
                 <th>CONTINENTE</th>
             </tr>
@@ -221,7 +232,7 @@
                 <td>Otawa</td>
                 <td>América</td>
             </tr>
-        </table>
+        </table><br>
         <a href="Index.html#temario">Ir al temario 🔼</a>
         <hr>
         <h2 id="script">Script en Html</h2>
@@ -231,10 +242,10 @@
             <a href="Index.html#temario">Ir al temario 🔼</a>
         <hr>
         <h2 id="enlaces">Enlaces</h2>
-        <a href="/nuevo.html">Ir al Nuevo Archivo</a> <br>
+        <a href="/nuevo.html">Ir al Nuevo Archivo</a><br><br>
         <a href="https://tecnologiaeducativaargentina.blogspot.com/"  target="_blank" rel="nofollow">Ir a la Página Educativa</a>
-        <br>
-        <a href="https://web.whatsapp.com/" target="_blank" rel="nofollow"><img src="/IMG/whatsapp-color-svgrepo-com.svg" width="50" height="50" alt="Ir al WhatsApp"></a> <br>
+        <br><br>
+        <a href="https://web.whatsapp.com/" target="_blank" rel="nofollow"><img src="/IMG/whatsapp-color-svgrepo-com.svg" width="50" height="50" alt="Ir al WhatsApp"></a><br>
         <a href="https://www.youtube.com/" target="_blank" rel="nofollow"><img src="/IMG/youtube-color-svgrepo-com.svg" width="50" height="50" alt="Ir a Youtube"></a>
         
         <h3 id="enlace-css">Enlaces Internos</h3>
@@ -246,21 +257,19 @@
         <h2 id="enlaces-especiales">Enlaces Especiales</h2>
         <a href="mailto:fernandosantucho1@gmail.com" target="
         _blank">Enlace a correo electrónico</a>
-        <br>
-        <a href="tel:3834072549">Enlace a telefono</a>
-        <br>
+        <br><br>
+        <a href="tel:3834072549">Enlace al numero de teléfono</a>
+        <br><br>
         <a href="https:///api.whatsapp.com/send?phone=3834072549&text=Hola,%20como%20puedo%20ayudarte%20?" target="_blank" rel="nofollow"><img src="/IMG/whatsapp-color-svgrepo-com.svg" width="50" height="50" alt="Ir al WhatsApp"></a>
-        <br>
+        <br><br>
         <a href="Index.html#temario">Ir al temario 🔼</a>
         <hr>
         <h2 id="enlaces-interactivos">Enlaces Interactivos</h2>
             <button onclick="alert('Hiciste click en el boton')">Alerta</button><br><br>
-            <button>Pseudoclases</button><br><br>
-            <details>
                 <summary>Titulo del Acordeón</summary>
                 <article>
                     <h3>Contenido del Acordeón</h3>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo ipsa aspernatur sapiente culpa nisi voluptates voluptatem illo molestiae qui officia similique architecto, praesentium earum nesciunt nobis neque saepe inventore? Laborum.</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo ipsa aspernatur sapiente culpa.</p>
                         <img src="/IMG/dog-svgrepo-com.svg" alt="perrito">
                 </article>
             </details>
@@ -268,7 +277,7 @@
                 <summary>Titulo del Acordeón</summary>
                 <article>
                     <h3>Contenido del Acordeón</h3>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo ipsa aspernatur sapiente culpa nisi voluptates voluptatem illo molestiae qui officia similique architecto, praesentium earum nesciunt nobis neque saepe inventore? Laborum.</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo ipsa aspernatur.</p>
                         <img src="/IMG/whatsapp-color-svgrepo-com.svg" alt="whatsapp">
                 </article>
             </details>
@@ -284,7 +293,7 @@
         <br>
         <hr>
         <h2 id="iframe">Iframe</h2><!-- recomendable hacerlo siempre con JS pero cuando necesitas cargar un pdf por ej en HTML puedes usar este recurso, aunque la carga es mas lenta -->
-        <iframe src="/nuevo.html" frameborder="1"></iframe>
+        <iframe src="landing.html" frameborder="1"></iframe>
         <!-- se puede cargar pdf - sitios web que tengan la ruta- ubicaciones- la gran desventaja de estos iframe son su carga ya que al llamar paginas externas se vuelve mas dificil  -->
         <br><br>
         <iframe src="https://tecnologiaeducativaargentina.blogspot.com/" frameborder="1"></iframe>
@@ -305,13 +314,9 @@
         <br>
         <input type="color">
         <br>
-        <input type="button"value="Botón">
-        <br>
         <input type="submit">
         <br>
         <input type="reset">
-        <br>
-        <input type="file">
         <br>
         <input type="file" multiple>
         <br>
@@ -319,13 +324,11 @@
         <br>
         <input type="email">
         <br>
-        <input type="number">
+        <input type="tel" placeholder="Nro de Telefono">
         <br>
-        <input type="tel">
+        <input type="password" placeholder="Contraseña">
         <br>
-        <input type="password">
-        <br>
-        <input type="search">
+        <input type="search" placeholder="Buscar">
         <br>
         <textarea cols="50" rows="5">Hello!</textarea>
         <br>
@@ -335,8 +338,6 @@
             <option value="">JS</option>
         </select>
         <select name="" id=""multiple>
-            <option value="">HTML</option>
-            <option value="">CSS</option>
             <option value="">JS</option>
             <option value="">PHP</option>
             <option value="">PYTHON</option>
@@ -354,18 +355,13 @@
         <h3>Atributos dentro de un Formulario</h3>
         <h4>Formulario de Login</h4>
         <form action="https://tecnologiaeducativaargentina.blogspot.com/" target="_blank" method="post" autocomplete="off">
-            <input type="text" name="usuario"required><br>
-            <input type="password" name="password" pattern="^[0-9]+$" title="Este Campo solo acepta numeros">
+            <input type="text" name="usuario"required placeholder="Usuario"><br>
+            <input type="password" name="password" pattern="^[0-9]+$" title="Este Campo solo acepta numeros" placeholder="Contraseña">
             <input type="submit" value="Enviar Consulta">
             <br><br>
             <input type="reset"value="Limpiar"> 
-            <br><br>
-            <label for="contraseña">Contraseña</label>
-            <input type="contraseña"name="contraseña"id="contraseña"placeholder="Escribe tu contraseña"required>
+            <br>
             <!-- required(boleean) se usa para validar si los input tienen info para enviar al servidor. para determinar que deben escribir los usuarios se aplican las expresiones regulares con el metodo pattern(patrones) que inician con un ^ y terminan $ entre []. estos se deben ver bien en JS ya que ahi es donde se programan -->
-            <br><br>
-            <input type="submit">
-            <input type="reset">
         </form>
         <br>
         <h4>Select, Radios y Checkbox </h4> <!--  http://127.0.0.1:5500/Index.html?idioma=es&lenguaje=js&intereses=finanzas#enlaces -->
@@ -386,13 +382,10 @@
                     <label for="radio-py">Python</label>
                     <input type="radio" name="lenguaje"id="radio-php"value="php">
                     <label for="radio-php">PHP</label>
-                    <br><br>
+                    <br>
                     <input type="submit">
                     <input type="reset">
                 <p>Elige tus intereses:</p> <!--  http://127.0.0.1:5500/Index.html?idioma=es&lenguaje=py&intereses=deportes&intereses=finanzas&intereses=politica&intereses=salud#enlaces-interactivos -->
-                    <label>
-                        <input type="checkbox"name="intereses"value="deportes">Deportes
-                    </label>
                         <input type="checkbox"name="intereses"value="finanzas"checked>Finanzas
                     </label>
                         <input type="checkbox"name="intereses"value="politica">Politica
