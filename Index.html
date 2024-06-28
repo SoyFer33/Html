@@ -12,432 +12,482 @@
     
     <title>Tutorial HTML</title>
 </head>
-<body>      
-    <h2>Tutorial de HTML</h2>
-    <h3 id="temario">Temario del Curso</h3>
-    <ul>
-        <li><a href="Index.html#encabezados"> Tipos de Encabezados</a></li>
-        <li><a href="Index.html#etiquetas-basicas">Etiquetas de Texto Basicas</a></li>
-        <li><a href="Index.html#etiquetas-salto">Etiquetas de Salto</a></li>
-        <li><a href="Index.html#etiquetas-formateo">Etiquetas de Formateo</a></li>
-        <li><a href="Index.html#etiquetas-semanticas-estructurales">Etiquetas semánticas estructurales</a></li>    
-        <li><a href="Index.html#etiquetas-linea-bloque">Etiquetas de linea y de bloque</a></li>
-        <li><a href="Index.html#imagenes">Imágenes</a></li>
-        <li><a href="Index.html#listas-ordenadas">Listas Ordenadas</a></li>
-        <li><a href="Index.html#listas-desordenadas">Listas Desordenadas</a></li>
-        <li><a href="Index.html#tablas">Tablas</a></li>
-        <li><a href="Index.html#script">Script en Html</a></li>
-        <li><a href="Index.html#enlaces">Enlaces</a></li>
-        <li><a href="Index.html#enlaces-especiales">Enlaces Especiales</a></li>
-        <li><a href="Index.html#enlaces-interactivos">Enlaces Interactivos</a></li>
-        <li><a href="Index.html#audios-videos">Audios y Videos</a></li>
-        <li><a href="Index.html#iframe">Iframe</a></li>
-        <li><a href="Index.html#formularios">Formularios</a></li>
-        <li><a href="Index.html#atributos-de-formulario">Atributos de los Formularios</a></li>
-        <li><a href="Index.html#metas-seo">Metasetiquetas para SEO</a></li>
-        <li><a href="Index.html#columnas-flexbox">Columnas/Flexbox</a></li>
-        <li><a href="Index.html#nav-responsive">Navbar Responsive</a></li>
-    </ul>
-    <br>
-    <hr>
-    <h2 id="encabezados" >Tipos de Encabezados</h2>
-    <h1>Encabezado de nivel 1- solo uno por documento</h1>
-    <h2 class="tamaño-letra">Encabezado de nivel 2</h2>
-    <h3 class="coloresHexa">Encabezado de nivel 3</h3>
-    <h4 class="coloresRGB">Encabezado de nivel 4</h4>
-    <h5>Encabezado de nivel 5</h5>
-    <h5>Encabezado de nivel 5</h5>
-    <h5>Encabezado de nivel 5</h5>
-    <h6>Ejemplos de Inline y en Bloque</h6>
-        <div class="bloque">
-            <a href="#">Enlace 1</a>
-            <a href="#">Enlace 2</a>
-            <a href="#">Enlace 3</a>
-            <a href="#">Enlace 4</a>
-        </div><br>
-        <div class="inline">
-            <a href="#">Enlace 1</a>
-            <a href="#">Enlace 2</a>
-            <a href="#">Enlace 3</a>
-            <a href="#">Enlace 4</a>
-        </div>
-
-    <br>
-    <a href="Index.html#temario">Ir al temario 🔼</a>
-    <hr>
-    <h2 id="etiquetas-basicas">Etiquetas de texto Básicas</h2><!-- Este se usa para Subtitulos -->
-        <p>Palabras en: <b>Negrita</b>, <i>Cursiva</i>, <u>Subrayado</u>, e=mc <sup>2</sup>, H <sub>2</sub>0, <mark> Texto resaltado</mark>, <small>Ltras pequeñas</small></p>
-        <h3 class="etiqueta-color">Etiquetas de Texto Semanticas <h3>
-            <p class="etiqueta-color"><strong>Este texto es importante </strong><em>Este texto hace énfasis </em></p>
-            <blockquote class="etiqueta-color">Solo se que no se nada</blockquote>
-            <cite class="etiqueta-color">Sócrates</cite> 
-    <br>
-    <a href="Index.html#temario">Ir al temario 🔼</a>
-    <hr>
-    <h2 id="etiquetas-salto">Etiquetas de Salto</h2>
-
-     <p class="fondo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, repudiandae culpa. <br> Distinctio officia alias dignissimos repudiandae doloremque accusamus quaerat excepturi quia. <br><br> Distinctio nostrum eligendi modi exercitationem laborum ipsam quod tenetur.</p>
-     <p class="colores">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ullam vel voluptas quibusdam neque consequatur rem officia earum quo explicabo similique, consequuntur aspernatur ab, exercitationem excepturi numquam dolore voluptatum soluta!</p>
-    <a href="Index.html#temario">Ir al temario 🔼</a>
-    <hr>
-    <h2 id="etiquetas-formateo">Etiquetas de Formateo </h2>
-    <pre>
-    <p>Tareas por Hacer:
-         En el curso:
-            -No faltar a clase.
-            -Repasr la teoria.
-            -Practicar los ejercicios.
-         En la Casa:
-            -Cortar el pasto.
-            -Hacer las compras.
-            -Pagar las cuentas.
-    </p>
-    </pre>
-    <p>
-        <code>Este texto esta en el formato de codigo</code>
-
-    </p>
-    <pre>
-        <code>
-            funtion clearScreen() {
-                document.getElementById("Respuesta").
-                value = "";
-            }
-        </code>
-    </pre>
-    <a href="Index.html#temario">Ir al temario 🔼</a>
-    <hr>
-    <h2 id="etiquetas-semanticas-estructurales">Etiquetas semánticas estructurales</h2>
-    
-    <div style="background-color: rgb(20, 32, 32); color: #fff">DIV:Es una etiqueta contenedora que no tiene semantica</div>
-    <header style="background-color: cadetblue;">HEADER: cabecera de un sitio web o una seccion</header>
-    <main style="background-color: cadetblue;">MAIN: define la seccion principal del documento, solo puede existir una por documento.</main>
-    <footer style="background-color: cadetblue;">FOOTER: pie de pagina de un sitio web o una seccion.</footer>
-    <nav style="background-color: cadetblue;">NAV: Representa un menu de navegacion.</nav>
-    <article>ARTICLE: Representa una seccion de auto contenido(que por si sola se explica).</article>
-    <aside>ASIDE: Representa un contenido complementario o secundario.</aside>
-    <section>SECTION: Representa una seccion de un contenido generico.</section>
-    <address>  ADDRES: Representa una direccion fisica.</address>
-    <a href="Index.html#temario">Ir al temario 🔼</a>
-    <hr>
-    <h2 id="etiquetas-linea-bloque">Etiquetas de linea y de bloque</h2>
-    <div style="background-color: cadetblue;">La etiqueta de bloque por excelencia es la Div</div>
-    <span style="background-color: rgb(25, 45, 83);">La etiqueta de linea por excelencia es la SPAN.</span>
-    <span>Hola soy otra span</span>
-    <br>
-    <a href="Index.html#temario">Ir al temario 🔼</a>
-    <hr>
-    <h2 id="imagenes">Imágenes</h2>
-    <img src="/IMG/dog-svgrepo-com.svg" alt="foto perrito">
-    <img src="/IMG/tablehtml5.jpg" alt="Tabla"><br>
-    <a href="Index.html#temario">Ir al temario 🔼</a>
-    <hr>
-    <h2 id="figuras">Figuras</h2>
-    <figure>
-        <img src="/IMG/tablehtml5.jpg" alt="Tabla HTML ">
-        <figcaption>Esta es una tabla</figcaption>
-    </figure>
-    <a href="Index.html#temario">Ir al temario 🔼</a>
-    <hr>
-    <h2 id="listas-ordenadas">Listas Ordenadas</h2>
-    <h3>Estaciones del Año</h3>
-    <ol>
-        <li>Primavera</li>
-        <li>Verano</li>
-        <li>Invierno</li>
-        <li>Verano</li>
-    </ol>
-    <ol start="7">
-        <li>Primavera</li>
-        <li>Verano</li>
-        <li>Invierno</li>
-        <li>Verano</li>
-    </ol>
-    <ol reversed>
-        <li>Primavera</li>
-        <li>Verano</li>
-        <li>Invierno</li>
-        <li>Verano</li>
-    </ol>
-    <ol type="I">
-        <li>Primavera</li>
-        <li>Verano</li>
-        <li>Invierno</li>
-        <li>Verano</li>
-    </ol>
-    <a href="Index.html#temario">Ir al temario 🔼</a>
-    <hr>
-    <h2 id="listas-desordenadas">Listas Desordenadas</h2>
-    <h3>Cosas por Hacer</h3>
-    <ul>
-        <li>Enviar informes 1° trimestre</li>
-        <li>Terminar PPT del modulo 3</li>
-        <li>Corregir evaluacion</li>
-        <li>Entregar trabajo final del curso de IA</li>
-    </ul>
-    <ul type="circle">
-        <li>Enviar informes 1° trimestre</li>
-        <li>Terminar PPT del modulo 3</li>
-        <li>Corregir evaluacion</li>
-        <li>Entregar trabajo final del curso de IA</li>
-    </ul>
-    <ul type="square">
-        <li>Enviar informes 1° trimestre</li>
-        <li>Terminar PPT del modulo 3</li>
-        <li>Corregir evaluacion</li>
-        <li>Entregar trabajo final del curso de IA</li>
-    </ul>
-    <a href="Index.html#temario">Ir al temario 🔼</a>
-    <hr>
-    <h2 id="tablas">Tablas</h2>
-    <table>
-        <tr>
-            <th colspan="2">PAIS</th>
-            <th>CAPITAL</th>
-            <th>CONTINENTE</th>
-        </tr>
-        <tr>
-            <td>Japón</td>
-            <td>Tokio</td>
-            <td>Asia</td>
-        </tr>
-        <tr>
-            <td>Francia</td>
-            <td>París</td>
-            <td>Europa</td>
-        </tr>
-        <tr>
-            <td>Canada</td>
-            <td>Otawa</td>
-            <td>América</td>
-        </tr>
-    </table>
-    <a href="Index.html#temario">Ir al temario 🔼</a>
-    <hr>
-    <h2 id="script">Script en Html</h2>
-        <p>Aqui se explica la forma en que podemos enlazar un archivo JS, desde el codigo de Html</p>
-        <script src="JS/app.js"></script>
-        <script>console.log("Este codigo esta en el index")</script><br>
-        <a href="Index.html#temario">Ir al temario 🔼</a>
-    <hr>
-    <h2 id="enlaces">Enlaces</h2>
-    <a href="/nuevo.html">Ir al Nuevo Archivo</a> <br>
-    <a href="https://tecnologiaeducativaargentina.blogspot.com/"  target="_blank" rel="nofollow">Ir a la Página Educativa</a>
-    <br>
-    <a href="https://web.whatsapp.com/" target="_blank" rel="nofollow"><img src="/IMG/whatsapp-color-svgrepo-com.svg" width="50" height="50" alt="Ir al WhatsApp"></a> <br>
-    <a href="https://www.youtube.com/" target="_blank" rel="nofollow"><img src="/IMG/youtube-color-svgrepo-com.svg" width="50" height="50" alt="Ir a Youtube"></a>
-    
-    <h3 id="enlace-css">Enlaces Internos</h3>
-    <p>Explicamos como enlazamos distintas páginas de nuestro proyecto.</p>
-    <br>
-    <a href="Index.html#temario">Ir al temario 🔼</a>
-    <hr>
-    
-    <h2 id="enlaces-especiales">Enlaces Especiales</h2>
-    <a href="mailto:fernandosantucho1@gmail.com" target="
-    _blank">Enlace a correo electrónico</a>
-    <br>
-    <a href="tel:3834072549">Enlace a telefono</a>
-    <br>
-    <a href="https:///api.whatsapp.com/send?phone=3834072549&text=Hola,%20como%20puedo%20ayudarte%20?" target="_blank" rel="nofollow"><img src="/IMG/whatsapp-color-svgrepo-com.svg" width="50" height="50" alt="Ir al WhatsApp"></a>
-    <br>
-    <a href="Index.html#temario">Ir al temario 🔼</a>
-    <hr>
-    <h2 id="enlaces-interactivos">Enlaces Interactivos</h2>
-        <button onclick="alert('Hiciste click en el boton')">Alerta</button><br><br>
-        <button>Pseudoclases</button><br><br>
-        <details>
-            <summary>Titulo del Acordeón</summary>
-            <article>
-                <h3>Contenido del Acordeón</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo ipsa aspernatur sapiente culpa nisi voluptates voluptatem illo molestiae qui officia similique architecto, praesentium earum nesciunt nobis neque saepe inventore? Laborum.</p>
-                    <img src="/IMG/dog-svgrepo-com.svg" alt="perrito">
-            </article>
-        </details>
-        <details open> <!-- este es un acordeon o desplegable abierto -->
-            <summary>Titulo del Acordeón</summary>
-            <article>
-                <h3>Contenido del Acordeón</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo ipsa aspernatur sapiente culpa nisi voluptates voluptatem illo molestiae qui officia similique architecto, praesentium earum nesciunt nobis neque saepe inventore? Laborum.</p>
-                    <img src="/IMG/whatsapp-color-svgrepo-com.svg" alt="whatsapp">
-            </article>
-        </details>
-    <br><br>
-    <a href="Index.html#temario">Ir al temario 🔼</a>
-    <hr>
-    <h2 id="audios-videos">Audios y Videos</h2>
-    <audio src="/media/03 - La Barra - Maldito Amor.mp3"controls preload="auto">La Barra</audio> <!-- el autoplay es mas para app de escritorios por que para celulares se utilizan mas permisos para reproducir automaticamente. tbm esta el atributo loop que es que vuelve a reproducirse. ademas se encuentra el atrib muted y es recomendable el atributo preload que es que cuando tu navegador en el cache empieza a cargar antes para que pueda ser aplicado -->
-    <br>
-    <video src="/media/VID-20200412-WA0033.mp4"controls preload="auto" poster="/IMG/dog-svgrepo-com.svg"></video> <!-- recomendable poner el mismo tipos de imagen predeterminada con el video ya que aveces tienen diferencias de pixeles. lo que podemos hacer es trabajarlo desde CSS para mejor organizacion -->
-    <br><br>
-    <a href="Index.html#temario">Ir al temario 🔼</a>
-    <br>
-    <hr>
-    <h2 id="iframe">Iframe</h2><!-- recomendable hacerlo siempre con JS pero cuando necesitas cargar un pdf por ej en HTML puedes usar este recurso, aunque la carga es mas lenta -->
-    <iframe src="/nuevo.html" frameborder="1"></iframe>
-    <!-- se puede cargar pdf - sitios web que tengan la ruta- ubicaciones- la gran desventaja de estos iframe son su carga ya que al llamar paginas externas se vuelve mas dificil  -->
-    <br><br>
-    <iframe src="https://tecnologiaeducativaargentina.blogspot.com/" frameborder="1"></iframe>
-    <br><br>
-    <iframe src="/media/cheatsheet-a5.pdf" frameborder="1"></iframe>
-    <br><br>
-    <a href="Index.html#temario">Ir al temario 🔼</a>
-    <hr>
-    <h2 id="formularios">Formularios</h2>
-    <h3>Elementos de Formularios</h3>
-    <input type="text">
-    <br>
-    <input type="checkbox">
-    <br>
-    <input type="radio">
-    <br>
-    <input type="date">
-    <br>
-    <input type="color">
-    <br>
-    <input type="button"value="Botón">
-    <br>
-    <input type="submit">
-    <br>
-    <input type="reset">
-    <br>
-    <input type="file">
-    <br>
-    <input type="file" multiple>
-    <br>
-    <input type="hidden" name="idioma" value="es"> <!-- se envia oculto y sirve para enviar informacion en forma de variables, que el servidor pueda capturar -->
-    <br>
-    <input type="email">
-    <br>
-    <input type="number">
-    <br>
-    <input type="tel">
-    <br>
-    <input type="password">
-    <br>
-    <input type="search">
-    <br>
-    <textarea cols="50" rows="5">Hello!</textarea>
-    <br>
-    <select name="" id="">
-        <option value="">HTML</option>
-        <option value="">CSS</option>
-        <option value="">JS</option>
-    </select>
-    <select name="" id=""multiple>
-        <option value="">HTML</option>
-        <option value="">CSS</option>
-        <option value="">JS</option>
-        <option value="">PHP</option>
-        <option value="">PYTHON</option>
-    </select>
-    <br><br>
-    <a href="Index.html#temario">Ir al temario 🔼</a>
-    <hr>
-    <h2 id="atributos-de-formulario">Atributos de los Formularios</h2>
-    <input type="text" value="fernando" readonly>
-    <input type="text" value="fernando" disabled>
-    <br>
-    <input type="text" placeholder="Escribe tu nombre">
-    <br>
-
-    <h3>Atributos dentro de un Formulario</h3>
-    <h4>Formulario de Login</h4>
-    <form action="https://tecnologiaeducativaargentina.blogspot.com/" target="_blank" method="post" autocomplete="off">
-        <input type="text" name="usuario"required><br>
-        <input type="password" name="password" pattern="^[0-9]+$" title="Este Campo solo acepta numeros">
-        <input type="submit" value="Enviar Consulta">
-        <br><br>
-        <input type="reset"value="Limpiar"> 
-        <br><br>
-        <label for="contraseña">Contraseña</label>
-        <input type="contraseña"name="contraseña"id="contraseña"placeholder="Escribe tu contraseña"required>
-        <!-- required(boleean) se usa para validar si los input tienen info para enviar al servidor. para determinar que deben escribir los usuarios se aplican las expresiones regulares con el metodo pattern(patrones) que inician con un ^ y terminan $ entre []. estos se deben ver bien en JS ya que ahi es donde se programan -->
-        <br><br>
-        <input type="submit">
-        <input type="reset">
-    </form>
-    <br>
-    <h4>Select, Radios y Checkbox </h4> <!--  http://127.0.0.1:5500/Index.html?idioma=es&lenguaje=js&intereses=finanzas#enlaces -->
-    <form>
-        <p>Elige tu idioma:</p>
-            <select name="idioma"required>
-                <option value=""selected>Elige una opción</option>
-                <option value="es">Español</option>
-                <option value="en">Inglés</option>
-                <option value="fr">Francés</option>
-                <option value="it">Italiano</option>
-                <option value="pt">Portugués</option>
-            </select>
-            <p>Elige tu lenguaje de programación favorito:</p>
-                <input type="radio" name="lenguaje"id="radio-js"value="js"required>
-                <label for="radio-js">JavaScript</label>
-                <input type="radio" name="lenguaje"id="radio-py"value="py"checked>
-                <label for="radio-py">Python</label>
-                <input type="radio" name="lenguaje"id="radio-php"value="php">
-                <label for="radio-php">PHP</label>
-                <br><br>
-                <input type="submit">
-                <input type="reset">
-            <p>Elige tus intereses:</p> <!--  http://127.0.0.1:5500/Index.html?idioma=es&lenguaje=py&intereses=deportes&intereses=finanzas&intereses=politica&intereses=salud#enlaces-interactivos -->
-                <label>
-                    <input type="checkbox"name="intereses"value="deportes">Deportes
-                </label>
-                    <input type="checkbox"name="intereses"value="finanzas"checked>Finanzas
-                </label>
-                    <input type="checkbox"name="intereses"value="politica">Politica
-                </label>
-                    <input type="checkbox"name="intereses"value="salud">Salud
-                </label><br><br>
-            <p>
-                <label>
-                    <input type="checkbox" name="terminos"required>¿Aceptas términos y condiciones?
-                </label> 
-            </p> <!-- no le ponemos value, ya que en checkbox y en radio ya viene predeterminado como un valor boolean-->
-        <input type="submit">
-        <input type="reset">
-    </form>
-  
-    <h4>Formulario de contacto</h4>
-    <form action="https://formsubmit.co/fernandosantucho1@gmail.com" method="POST" target="_blank">
-        <input type="text" name="nombre" placeholder="Escribe tu nombre" title="El nombre solo acepta letras y espacios en blanco" required><!-- pattern="^[a-Za-zÑñÁáÉéÍíÓóÚúü\s]+$" --> 
-        <br>
-        <input type="text" name="correo" placeholder="Escribe tu correo electronico" title="Formato de correo invalido" required><!-- pattern="^(\W+[/./-]?){1,}@[A-Z]+[/.]\W{2,}$" -->
-        <br>
-        <textarea name="comentarios" cols="30" rows="10" required></textarea><br>
-        <input type="submit" value="Enviar Consulta">
-    </form>
-    <br>
-    <a href="Index.html#temario">Ir al temario 🔼</a>
-    <hr>
-    <h2 id="metas-seo">Metasetiquetas para SEO</h2>
-    <p>Aqui agregamos un link en el head para indicarle a Google nuestro contenido, usamos Netlify</p>
-    <p>Ademas se realizan cambios con imagen favicon para nuestro logo en la pestaña del navegador, para ser visibles tanto como por la computadora como el celular.</p>
-    <br>
-    <a href="index.html#temario">Ir al temario 🔼</a>
-    <hr>
-   
-    <h2 id="columnas-flexbox">Columnas/Flexbox</h2>
-    <nav class="flex">
-        <a href="#">INICIO</a>
-        <a href="#">NOSOTROS</a>
-        <a href="#">CONTACTO</a>
+<header>
+    <nav class="navegacion-principal">
+        <a href="#">Inicio</a>  
+        <a href="contacto.html">Contacto</a>    
+        <a href="#">Más</a> 
+        <a href="login.html">Login</a>   
     </nav>
-    <br>
-    <section class="contenedor-padre">
-        <p class="columna">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus asperiores id quisquam soluta numquam iusto aperiam inventore, deserunt ratione. Nihil quo consequatur voluptates ut dolorum, rem nam obcaecati itaque libero!</p>
-        <p class="columna">Officia necessitatibus expedita quidem deserunt quas. Blanditiis nostrum placeat voluptatum facere voluptas ea neque quaerat vitae laudantium, ipsum nobis mollitia quas ratione debitis quae vero illum eaque ducimus distinctio unde.</p>
-        <p class="columna">Eos dolore officiis facere sit perspiciatis quam ut. Sed iste ex dignissimos dicta alias delectus necessitatibus aspernatur reiciendis! Inventore magnam sapiente dicta quisquam maiores sed, fugiat vitae aliquam ab omnis!</p>
-    </section>
-    <a href="Index.html#temario">Ir al temario 🔼</a>
-    <hr>
-    <h2 id="nav-responsive">Navbar Resposive</h2>
-    <p>Ayudame a hacer una mejor pagina web QMOOORR jsjsjjsaa</p>
-    <a href="navbar.html" target="_blank">Ir a la Página</a>
-    <br><br><br><br><br><br><br><br><br><br>
-    <br>
-    <a href="Index.html#temario">Ir al temario 🔼</a>
-    <hr>
-    <hr>
+</header>
+<body>      
+    <div class="container">
+        <h2>Tutorial de HTML</h2>
+        <h3 id="temario">Temario del Curso</h3>
+        <ul>
+            <li><a href="Index.html#encabezados"> Tipos de Encabezados</a></li>
+            <li><a href="Index.html#etiquetas-basicas">Etiquetas de Texto Basicas</a></li>
+            <li><a href="Index.html#etiquetas-salto">Etiquetas de Salto</a></li>
+            <li><a href="Index.html#etiquetas-formateo">Etiquetas de Formateo</a></li>
+            <li><a href="Index.html#etiquetas-semanticas-estructurales">Etiquetas semánticas estructurales</a></li>    
+            <li><a href="Index.html#etiquetas-linea-bloque">Etiquetas de linea y de bloque</a></li>
+            <li><a href="Index.html#imagenes">Imágenes</a></li>
+            <li><a href="Index.html#listas-ordenadas">Listas Ordenadas</a></li>
+            <li><a href="Index.html#listas-desordenadas">Listas Desordenadas</a></li>
+            <li><a href="Index.html#tablas">Tablas</a></li>
+            <li><a href="Index.html#script">Script en Html</a></li>
+            <li><a href="Index.html#enlaces">Enlaces</a></li>
+            <li><a href="Index.html#enlaces-especiales">Enlaces Especiales</a></li>
+            <li><a href="Index.html#enlaces-interactivos">Enlaces Interactivos</a></li>
+            <li><a href="Index.html#audios-videos">Audios y Videos</a></li>
+            <li><a href="Index.html#iframe">Iframe</a></li>
+            <li><a href="Index.html#formularios">Formularios</a></li>
+            <li><a href="Index.html#atributos-de-formulario">Atributos de los Formularios</a></li>
+            <li><a href="Index.html#metas-seo">Metasetiquetas para SEO</a></li>
+            <li><a href="Index.html#columnas-flexbox">Columnas/Flexbox</a></li>
+            <li><a href="Index.html#nav-responsive">Navbar Responsive</a></li>
+            <li><a href="Index.html#flexbox">Flexbox Caja Flexible</a></li>
+        </ul>
+        <br>
+        <hr>
+        <h2 id="encabezados" >Tipos de Encabezados</h2>
+        <h1>Encabezado de nivel 1- solo uno por documento</h1>
+        <h2 class="tamaño-letra">Encabezado de nivel 2</h2>
+        <h3 class="coloresHexa">Encabezado de nivel 3</h3>
+        <h4 class="coloresRGB">Encabezado de nivel 4</h4>
+        <h5>Encabezado de nivel 5</h5>
+        <h5>Encabezado de nivel 5</h5>
+        <h5>Encabezado de nivel 5</h5>
+        <h6>Ejemplos de Inline y en Bloque</h6>
+            <div class="bloque">
+                <a href="#">Enlace 1</a>
+                <a href="#">Enlace 2</a>
+                <a href="#">Enlace 3</a>
+                <a href="#">Enlace 4</a>
+            </div><br>
+            <div class="inline">
+                <a href="#">Enlace 1</a>
+                <a href="#">Enlace 2</a>
+                <a href="#">Enlace 3</a>
+                <a href="#">Enlace 4</a>
+            </div>
+    
+        <br>
+        <a href="Index.html#temario">Ir al temario 🔼</a>
+        <hr>
+        <h2 id="etiquetas-basicas">Etiquetas de texto Básicas</h2><!-- Este se usa para Subtitulos -->
+            <p>Palabras en: <b>Negrita</b>, <i>Cursiva</i>, <u>Subrayado</u>, e=mc <sup>2</sup>, H <sub>2</sub>0, <mark> Texto resaltado</mark>, <small>Ltras pequeñas</small></p>
+            <h3 class="etiqueta-color">Etiquetas de Texto Semanticas <h3>
+                <p class="etiqueta-color"><strong>Este texto es importante </strong><em>Este texto hace énfasis </em></p>
+                <blockquote class="etiqueta-color">Solo se que no se nada</blockquote>
+                <cite class="etiqueta-color">Sócrates</cite> 
+        <br>
+        <a href="Index.html#temario">Ir al temario 🔼</a>
+        <hr>
+        <h2 id="etiquetas-salto">Etiquetas de Salto</h2>
+    
+        <p class="fondo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, repudiandae culpa. <br> Distinctio officia alias dignissimos repudiandae doloremque accusamus quaerat excepturi quia. <br><br> Distinctio nostrum eligendi modi exercitationem laborum ipsam quod tenetur.</p>
+        <p class="colores">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ullam vel voluptas quibusdam neque consequatur rem officia earum quo explicabo similique, consequuntur aspernatur ab, exercitationem excepturi numquam dolore voluptatum soluta!</p>
+        <a href="Index.html#temario">Ir al temario 🔼</a>
+        <hr>
+        <h2 id="etiquetas-formateo">Etiquetas de Formateo </h2>
+        <pre>
+        <p>Tareas por Hacer:
+            En el curso:
+                -No faltar a clase.
+                -Repasr la teoria.
+                -Practicar los ejercicios.
+            En la Casa:
+                -Cortar el pasto.
+                -Hacer las compras.
+                -Pagar las cuentas.
+        </p>
+        </pre>
+        <p>
+            <code>Este texto esta en el formato de codigo</code>
+    
+        </p>
+        <pre>
+            <code>
+                funtion clearScreen() {
+                    document.getElementById("Respuesta").
+                    value = "";
+                }
+            </code>
+        </pre>
+        <a href="Index.html#temario">Ir al temario 🔼</a>
+        <hr>
+        <h2 id="etiquetas-semanticas-estructurales">Etiquetas semánticas estructurales</h2>
+        
+        <div style="background-color: rgb(20, 32, 32); color: #fff">DIV:Es una etiqueta contenedora que no tiene semantica</div>
+        <header style="background-color: cadetblue;">HEADER: cabecera de un sitio web o una seccion</header>
+        <main style="background-color: cadetblue;">MAIN: define la seccion principal del documento, solo puede existir una por documento.</main>
+        <footer style="background-color: cadetblue;">FOOTER: pie de pagina de un sitio web o una seccion.</footer>
+        <nav style="background-color: cadetblue;">NAV: Representa un menu de navegacion.</nav>
+        <article>ARTICLE: Representa una seccion de auto contenido(que por si sola se explica).</article>
+        <aside>ASIDE: Representa un contenido complementario o secundario.</aside>
+        <section>SECTION: Representa una seccion de un contenido generico.</section>
+        <address>  ADDRES: Representa una direccion fisica.</address>
+        <a href="Index.html#temario">Ir al temario 🔼</a>
+        <hr>
+        <h2 id="etiquetas-linea-bloque">Etiquetas de linea y de bloque</h2>
+        <div style="background-color: cadetblue;">La etiqueta de bloque por excelencia es la Div</div>
+        <span style="background-color: rgb(25, 45, 83);">La etiqueta de linea por excelencia es la SPAN.</span>
+        <span>Hola soy otra span</span>
+        <br>
+        <a href="Index.html#temario">Ir al temario 🔼</a>
+        <hr>
+        <h2 id="imagenes">Imágenes</h2>
+        <img src="/IMG/dog-svgrepo-com.svg" alt="foto perrito">
+        <img src="/IMG/tablehtml5.jpg" alt="Tabla"><br>
+        <a href="Index.html#temario">Ir al temario 🔼</a>
+        <hr>
+        <h2 id="figuras">Figuras</h2>
+        <figure>
+            <img src="/IMG/tablehtml5.jpg" alt="Tabla HTML ">
+            <figcaption>Esta es una tabla</figcaption>
+        </figure>
+        <a href="Index.html#temario">Ir al temario 🔼</a>
+        <hr>
+        <h2 id="listas-ordenadas">Listas Ordenadas</h2>
+        <h3>Estaciones del Año</h3>
+        <ol>
+            <li>Primavera</li>
+            <li>Verano</li>
+            <li>Invierno</li>
+            <li>Verano</li>
+        </ol>
+        <ol start="7">
+            <li>Primavera</li>
+            <li>Verano</li>
+            <li>Invierno</li>
+            <li>Verano</li>
+        </ol>
+        <ol reversed>
+            <li>Primavera</li>
+            <li>Verano</li>
+            <li>Invierno</li>
+            <li>Verano</li>
+        </ol>
+        <ol type="I">
+            <li>Primavera</li>
+            <li>Verano</li>
+            <li>Invierno</li>
+            <li>Verano</li>
+        </ol>
+        <a href="Index.html#temario">Ir al temario 🔼</a>
+        <hr>
+        <h2 id="listas-desordenadas">Listas Desordenadas</h2>
+        <h3>Cosas por Hacer</h3>
+        <ul>
+            <li>Enviar informes 1° trimestre</li>
+            <li>Terminar PPT del modulo 3</li>
+            <li>Corregir evaluacion</li>
+            <li>Entregar trabajo final del curso de IA</li>
+        </ul>
+        <ul type="circle">
+            <li>Enviar informes 1° trimestre</li>
+            <li>Terminar PPT del modulo 3</li>
+            <li>Corregir evaluacion</li>
+            <li>Entregar trabajo final del curso de IA</li>
+        </ul>
+        <ul type="square">
+            <li>Enviar informes 1° trimestre</li>
+            <li>Terminar PPT del modulo 3</li>
+            <li>Corregir evaluacion</li>
+            <li>Entregar trabajo final del curso de IA</li>
+        </ul>
+        <a href="Index.html#temario">Ir al temario 🔼</a>
+        <hr>
+        <h2 id="tablas">Tablas</h2>
+        <table>
+            <tr>
+                <th colspan="2">PAIS</th>
+                <th>CAPITAL</th>
+                <th>CONTINENTE</th>
+            </tr>
+            <tr>
+                <td>Japón</td>
+                <td>Tokio</td>
+                <td>Asia</td>
+            </tr>
+            <tr>
+                <td>Francia</td>
+                <td>París</td>
+                <td>Europa</td>
+            </tr>
+            <tr>
+                <td>Canada</td>
+                <td>Otawa</td>
+                <td>América</td>
+            </tr>
+        </table>
+        <a href="Index.html#temario">Ir al temario 🔼</a>
+        <hr>
+        <h2 id="script">Script en Html</h2>
+            <p>Aqui se explica la forma en que podemos enlazar un archivo JS, desde el codigo de Html</p>
+            <script src="JS/app.js"></script>
+            <script>console.log("Este codigo esta en el index")</script><br>
+            <a href="Index.html#temario">Ir al temario 🔼</a>
+        <hr>
+        <h2 id="enlaces">Enlaces</h2>
+        <a href="/nuevo.html">Ir al Nuevo Archivo</a> <br>
+        <a href="https://tecnologiaeducativaargentina.blogspot.com/"  target="_blank" rel="nofollow">Ir a la Página Educativa</a>
+        <br>
+        <a href="https://web.whatsapp.com/" target="_blank" rel="nofollow"><img src="/IMG/whatsapp-color-svgrepo-com.svg" width="50" height="50" alt="Ir al WhatsApp"></a> <br>
+        <a href="https://www.youtube.com/" target="_blank" rel="nofollow"><img src="/IMG/youtube-color-svgrepo-com.svg" width="50" height="50" alt="Ir a Youtube"></a>
+        
+        <h3 id="enlace-css">Enlaces Internos</h3>
+        <p>Explicamos como enlazamos distintas páginas de nuestro proyecto.</p>
+        <br>
+        <a href="Index.html#temario">Ir al temario 🔼</a>
+        <hr>
+        
+        <h2 id="enlaces-especiales">Enlaces Especiales</h2>
+        <a href="mailto:fernandosantucho1@gmail.com" target="
+        _blank">Enlace a correo electrónico</a>
+        <br>
+        <a href="tel:3834072549">Enlace a telefono</a>
+        <br>
+        <a href="https:///api.whatsapp.com/send?phone=3834072549&text=Hola,%20como%20puedo%20ayudarte%20?" target="_blank" rel="nofollow"><img src="/IMG/whatsapp-color-svgrepo-com.svg" width="50" height="50" alt="Ir al WhatsApp"></a>
+        <br>
+        <a href="Index.html#temario">Ir al temario 🔼</a>
+        <hr>
+        <h2 id="enlaces-interactivos">Enlaces Interactivos</h2>
+            <button onclick="alert('Hiciste click en el boton')">Alerta</button><br><br>
+            <button>Pseudoclases</button><br><br>
+            <details>
+                <summary>Titulo del Acordeón</summary>
+                <article>
+                    <h3>Contenido del Acordeón</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo ipsa aspernatur sapiente culpa nisi voluptates voluptatem illo molestiae qui officia similique architecto, praesentium earum nesciunt nobis neque saepe inventore? Laborum.</p>
+                        <img src="/IMG/dog-svgrepo-com.svg" alt="perrito">
+                </article>
+            </details>
+            <details open> <!-- este es un acordeon o desplegable abierto -->
+                <summary>Titulo del Acordeón</summary>
+                <article>
+                    <h3>Contenido del Acordeón</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo ipsa aspernatur sapiente culpa nisi voluptates voluptatem illo molestiae qui officia similique architecto, praesentium earum nesciunt nobis neque saepe inventore? Laborum.</p>
+                        <img src="/IMG/whatsapp-color-svgrepo-com.svg" alt="whatsapp">
+                </article>
+            </details>
+        <br><br>
+        <a href="Index.html#temario">Ir al temario 🔼</a>
+        <hr>
+        <h2 id="audios-videos">Audios y Videos</h2>
+        <audio src="/media/03 - La Barra - Maldito Amor.mp3"controls preload="auto">La Barra</audio> <!-- el autoplay es mas para app de escritorios por que para celulares se utilizan mas permisos para reproducir automaticamente. tbm esta el atributo loop que es que vuelve a reproducirse. ademas se encuentra el atrib muted y es recomendable el atributo preload que es que cuando tu navegador en el cache empieza a cargar antes para que pueda ser aplicado -->
+        <br>
+        <video src="/media/VID-20200412-WA0033.mp4"controls preload="auto" poster="/IMG/dog-svgrepo-com.svg"></video> <!-- recomendable poner el mismo tipos de imagen predeterminada con el video ya que aveces tienen diferencias de pixeles. lo que podemos hacer es trabajarlo desde CSS para mejor organizacion -->
+        <br><br>
+        <a href="Index.html#temario">Ir al temario 🔼</a>
+        <br>
+        <hr>
+        <h2 id="iframe">Iframe</h2><!-- recomendable hacerlo siempre con JS pero cuando necesitas cargar un pdf por ej en HTML puedes usar este recurso, aunque la carga es mas lenta -->
+        <iframe src="/nuevo.html" frameborder="1"></iframe>
+        <!-- se puede cargar pdf - sitios web que tengan la ruta- ubicaciones- la gran desventaja de estos iframe son su carga ya que al llamar paginas externas se vuelve mas dificil  -->
+        <br><br>
+        <iframe src="https://tecnologiaeducativaargentina.blogspot.com/" frameborder="1"></iframe>
+        <br><br>
+        <iframe src="/media/cheatsheet-a5.pdf" frameborder="1"></iframe>
+        <br><br>
+        <a href="Index.html#temario">Ir al temario 🔼</a>
+        <hr>
+        <h2 id="formularios">Formularios</h2>
+        <h3>Elementos de Formularios</h3>
+        <input type="text">
+        <br>
+        <input type="checkbox">
+        <br>
+        <input type="radio">
+        <br>
+        <input type="date">
+        <br>
+        <input type="color">
+        <br>
+        <input type="button"value="Botón">
+        <br>
+        <input type="submit">
+        <br>
+        <input type="reset">
+        <br>
+        <input type="file">
+        <br>
+        <input type="file" multiple>
+        <br>
+        <input type="hidden" name="idioma" value="es"> <!-- se envia oculto y sirve para enviar informacion en forma de variables, que el servidor pueda capturar -->
+        <br>
+        <input type="email">
+        <br>
+        <input type="number">
+        <br>
+        <input type="tel">
+        <br>
+        <input type="password">
+        <br>
+        <input type="search">
+        <br>
+        <textarea cols="50" rows="5">Hello!</textarea>
+        <br>
+        <select name="" id="">
+            <option value="">HTML</option>
+            <option value="">CSS</option>
+            <option value="">JS</option>
+        </select>
+        <select name="" id=""multiple>
+            <option value="">HTML</option>
+            <option value="">CSS</option>
+            <option value="">JS</option>
+            <option value="">PHP</option>
+            <option value="">PYTHON</option>
+        </select>
+        <br><br>
+        <a href="Index.html#temario">Ir al temario 🔼</a>
+        <hr>
+        <h2 id="atributos-de-formulario">Atributos de los Formularios</h2>
+        <input type="text" value="fernando" readonly>
+        <input type="text" value="fernando" disabled>
+        <br>
+        <input type="text" placeholder="Escribe tu nombre">
+        <br>
+    
+        <h3>Atributos dentro de un Formulario</h3>
+        <h4>Formulario de Login</h4>
+        <form action="https://tecnologiaeducativaargentina.blogspot.com/" target="_blank" method="post" autocomplete="off">
+            <input type="text" name="usuario"required><br>
+            <input type="password" name="password" pattern="^[0-9]+$" title="Este Campo solo acepta numeros">
+            <input type="submit" value="Enviar Consulta">
+            <br><br>
+            <input type="reset"value="Limpiar"> 
+            <br><br>
+            <label for="contraseña">Contraseña</label>
+            <input type="contraseña"name="contraseña"id="contraseña"placeholder="Escribe tu contraseña"required>
+            <!-- required(boleean) se usa para validar si los input tienen info para enviar al servidor. para determinar que deben escribir los usuarios se aplican las expresiones regulares con el metodo pattern(patrones) que inician con un ^ y terminan $ entre []. estos se deben ver bien en JS ya que ahi es donde se programan -->
+            <br><br>
+            <input type="submit">
+            <input type="reset">
+        </form>
+        <br>
+        <h4>Select, Radios y Checkbox </h4> <!--  http://127.0.0.1:5500/Index.html?idioma=es&lenguaje=js&intereses=finanzas#enlaces -->
+        <form>
+            <p>Elige tu idioma:</p>
+                <select name="idioma"required>
+                    <option value=""selected>Elige una opción</option>
+                    <option value="es">Español</option>
+                    <option value="en">Inglés</option>
+                    <option value="fr">Francés</option>
+                    <option value="it">Italiano</option>
+                    <option value="pt">Portugués</option>
+                </select>
+                <p>Elige tu lenguaje de programación favorito:</p>
+                    <input type="radio" name="lenguaje"id="radio-js"value="js"required>
+                    <label for="radio-js">JavaScript</label>
+                    <input type="radio" name="lenguaje"id="radio-py"value="py"checked>
+                    <label for="radio-py">Python</label>
+                    <input type="radio" name="lenguaje"id="radio-php"value="php">
+                    <label for="radio-php">PHP</label>
+                    <br><br>
+                    <input type="submit">
+                    <input type="reset">
+                <p>Elige tus intereses:</p> <!--  http://127.0.0.1:5500/Index.html?idioma=es&lenguaje=py&intereses=deportes&intereses=finanzas&intereses=politica&intereses=salud#enlaces-interactivos -->
+                    <label>
+                        <input type="checkbox"name="intereses"value="deportes">Deportes
+                    </label>
+                        <input type="checkbox"name="intereses"value="finanzas"checked>Finanzas
+                    </label>
+                        <input type="checkbox"name="intereses"value="politica">Politica
+                    </label>
+                        <input type="checkbox"name="intereses"value="salud">Salud
+                    </label><br><br>
+                <p>
+                    <label>
+                        <input type="checkbox" name="terminos"required>¿Aceptas términos y condiciones?
+                    </label> 
+                </p> <!-- no le ponemos value, ya que en checkbox y en radio ya viene predeterminado como un valor boolean-->
+            <input type="submit">
+            <input type="reset">
+        </form>
+    
+        <h4>Formulario de contacto</h4>
+        <form action="https://formsubmit.co/fernandosantucho1@gmail.com" method="POST" target="_blank">
+            <input type="text" name="nombre" placeholder="Escribe tu nombre" title="El nombre solo acepta letras y espacios en blanco" required><!-- pattern="^[a-Za-zÑñÁáÉéÍíÓóÚúü\s]+$" --> 
+            <br>
+            <input type="text" name="correo" placeholder="Escribe tu correo electronico" title="Formato de correo invalido" required><!-- pattern="^(\W+[/./-]?){1,}@[A-Z]+[/.]\W{2,}$" -->
+            <br>
+            <textarea name="comentarios" cols="30" rows="10" required></textarea><br>
+            <input type="submit" value="Enviar Consulta">
+        </form>
+        <br>
+        <a href="Index.html#temario">Ir al temario 🔼</a>
+        <hr>
+        <h2 id="metas-seo">Metasetiquetas para SEO</h2>
+        <p>Aqui agregamos un link en el head para indicarle a Google nuestro contenido, usamos Netlify</p>
+        <p>Ademas se realizan cambios con imagen favicon para nuestro logo en la pestaña del navegador, para ser visibles tanto como por la computadora como el celular.</p>
+        <br>
+        <a href="index.html#temario">Ir al temario 🔼</a>
+        <hr>
+    
+        <h2 id="columnas-flexbox">Columnas/Flexbox</h2>
+        <nav class="flex">
+            <a href="#">INICIO</a>
+            <a href="#">NOSOTROS</a>
+            <a href="#">CONTACTO</a>
+        </nav>
+        <br>
+        <section class="contenedor-padre">
+            <p class="columna">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus asperiores id quisquam soluta numquam iusto aperiam inventore, deserunt ratione. Nihil quo consequatur voluptates ut dolorum, rem nam obcaecati itaque libero!</p>
+            <p class="columna">Officia necessitatibus expedita quidem deserunt quas. Blanditiis nostrum placeat voluptatum facere voluptas ea neque quaerat vitae laudantium, ipsum nobis mollitia quas ratione debitis quae vero illum eaque ducimus distinctio unde.</p>
+            <p class="columna">Eos dolore officiis facere sit perspiciatis quam ut. Sed iste ex dignissimos dicta alias delectus necessitatibus aspernatur reiciendis! Inventore magnam sapiente dicta quisquam maiores sed, fugiat vitae aliquam ab omnis!</p>
+        </section>
+        <a href="Index.html#temario">Ir al temario 🔼</a>
+        <hr>
+        <h2 id="nav-responsive">Navbar Resposive</h2>
+        <p>Nos ayuda para que en distintos dispositivos nuestra pagina pueda ser visible y adaptable para una mejor experiencia de usuario.</p>
+        
+        <a href="navbar.html" target="_blank">Ir a la Página</a>
+        <br>
+        <hr>
+        <h2 id="flexbox">Flexbox Caja Flexible</h2>
+        <p>Flexbox es un modulo de CSS que nos permite crear layouts flexibles y respons</p>
+        <div class="flexbox-container">
+            <div class="flexbox-conta">1</div>
+            <div class="flexbox-conta">2</div>
+            <div class="flexbox-conta">3</div>
+            <div class="flexbox-conta">4</div>
+            <div class="flexbox-conta orden">5</div>
+            <div class="flexbox-conta sh">6</div>
+            <div class="flexbox-conta as">7</div>
+            <div class="flexbox-conta">8</div>
+            <div class="flexbox-conta">9</div>
+            <div class="flexbox-conta">10</div>
+            <div class="flexbox-conta">11</div>
+            <div class="flexbox-conta">12</div>
+        </div>
+        <hr>
+        <h2 id="css-grid">Grid System Rejilla</h2>
+        <p> El contenedor es el nivel superior y en él se 
+            definen las propiedades que luego tendrán todos los 
+            elementos.Trabaja de forma bidimensional: Al igual que flexbox, tenemos 
+            columnas y filas, pero ambos elementos pueden ser definidos a la vez.</p>
+        <div class="grid-container">
+            <div class="grid-item1" >1</div>
+            <div class="grid-item2">2</div>
+            <div class="grid-item3">3</div>
+            <div class="grid-item4">4</div>
+            <div class="grid-item5">5</div>
+            <div class="grid-item6">6</div>
+        </div>
+        <br>
+        <a href="Index.html#temario">Ir al temario 🔼</a>
+        <hr>
+        <h2>Media Queris</h2>
+        <a href="nuevo.html">Ir a Nuevo</a>
+        <br><br><br><br><br><br><br><br><br>
+        <br>
+    
+        <a href="Index.html#temario">Ir al temario 🔼</a>
+        <hr>
+        <hr>
+    </div>
 </body>
 </html>
