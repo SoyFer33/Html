@@ -90,7 +90,7 @@ iframe {
     color: rgb(3, 36, 0);
     background-color: #323232;
     background-color: rgb(184, 147, 135);
-    padding: 6rem;enlaces css
+    padding: 6rem;
 }
 .coloresHexa{
     color: rgb(26, 23, 121);
@@ -131,7 +131,7 @@ button:active{
     background-color: #9ebeac;
 }
 nav{
-    background-color: #2d373b;
+    background-color: #92b1bd;
     padding: 10px;
     display: flex;
     justify-content: space-around;
@@ -151,7 +151,7 @@ nav{
 
 @media (max-width: 600px) {
     nav{
-        background-color: #5a0cbe;
+        background-color: #9e94ac;
         flex-direction: column; 
     }
     .nav-enlace{
